@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.head-container {
+  background-color: #ff6f00;
+  color: white;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.nav-bar {
+  text-decoration: none;
+  margin: 0px 16px;
+  color: white;
+  font-weight: bold;
+  justify-content: space-evenly;
+}
+.balls {
+  background-image: url(/images/recipe6.webp);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  opacity: 0.9;
+  padding: 0 20px;
+}
+.justice {
+  justify-content: center;
+  padding: 170px;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+}
+.the {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.para {
+  width: 300px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.chow {
+  width: 540px;
+  height: 300px;
+  display: block;
+}
+.one {
+  padding-left: 410px;
+  padding-top: 0px;
+  margin-top: 30px;
+}
+.time {
+  /* width: 403px; */
+  /* width: 343px; */
+  /* height: 247.3px; */
+  /* display: inline-block; */
+  /* object-fit: cover; */
+  /* width: 403px; */
+  width: 343px;
+  height: 247.3px;
+  display: inline;
+  object-fit: cover;
+}
+.align {
+  margin-top: 100px;
+  height: 80px;
+  width: 360px;
+}
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.steps {
+  padding-left: 260px;
+  margin-top: 30px;
+}
+.ing {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.list {
+  justify-content: space-evenly;
+}
+.value {
+  padding-left: 260px;
+}
+.ingg {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.table-header {
+  background-color: lightblue;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.table-data {
+  background-color: plum;
+  color: lightblue;
+  text-align: center;
+  font-size: 18px;
+  color: darkblue;
+}
